@@ -1,0 +1,169 @@
+.enquiry-btn
+{
+    
+        text-transform: uppercase;
+        font-size: 14px;
+        display: inline-block;
+        border-radius:7px 20px 7px 20px;
+        padding: 10px;
+        margin-top: 40px;
+        
+        font-weight: 500;
+        background-color: #959492;
+        border: 1px solid #dcb36e;
+        color: #fff;
+        transition: all .3s ease;
+    }
+    
+    .enquiry-btn:hover,
+    .enquiry-btn:focus {
+        background-color: #fff;
+        color: #dcb36e;
+    }
+    
+    .enquiry-btn--ghost {
+        background-color: transparent;
+        color: #dcb36e;
+    }
+    
+    .enquiry-btn--ghost:hover,
+    .enquiry-btn--ghost:focus {
+        background-color: #dcb36e;
+        color: #fff;
+    }
+    
+    .enquiry-btn--full {
+        display: block;
+    }
+    
+    .enquiry-btn--big {
+        padding: 13px 70px;
+    }
+   .gallery
+   {
+    background: #0c343d;
+    animation: mymove 5s infinite;
+    padding-left: 50px;
+   
+   }
+   @keyframes mymove {
+    50% {background-color: #677662;}
+  }
+   .gallery img
+   {
+       transition: 1s;
+       width: 200px;
+       padding: 15px;
+       border: 1px solid black;
+       overflow: hidden;
+       border-radius: 20px;
+       margin: 25px;
+}
+.gallery img:hover
+{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.img-fluid
+{
+    height: 50px;
+    width: 60%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 5px solid #ddd;
+    }
+    tr, th {
+    text-align:center;
+    padding: 20px;
+    color:#000;
+    font-size: 20px;
+    }
+    tr:nth-child(even){background-color: #f2f2f2}
+    
+    .header-logo img
+    {
+        height: 100%;
+        width: 100%;
+        
+    }
+    .main-img
+{
+	width:100%;
+    
+}
+.Alluminium-img
+{
+	width:100%;
+    
+}
+.heavy-img
+{
+    width: 100%;
+}
+.fancy-img
+{
+    width: 100%;
+}
+.handel-img
+{
+    width: 100%;
+}
+.offcanvas-close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    
+  }
+  .offcanvas-close:hover {
+    opacity: 1;
+  }
+  .offcanvas-close:before, .offcanvas-close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .offcanvas-close:before {
+    transform: rotate(45deg);
+  }
+  .offcanvas-close:after {
+    transform: rotate(-45deg);
+  }
+  .btn-sm
+  {
+    width: 20%;
+    border: 1px solid #dcb36e ;
+     background-color: #959492;
+     color:#fff;
+  }
+.btn-sm:hover
+{
+   opacity: 1;
+    color:rgb(255, 255, 140);
+}
+.add-to-cart
+{
+  border-radius:7px 20px 7px 20px;
+}
+body
+{
+  background: linear-gradient(
+#c9d6ff,
+#e2e2e2);}
+   .cat
+   {
+    text-align: center;
+
+   }
+
+
+   
+
+
